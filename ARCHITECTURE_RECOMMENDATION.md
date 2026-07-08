@@ -1,11 +1,11 @@
-# Sales Call Analysis Tool - Real-Time Architecture Recommendation
+# Sales Call Analysis Tool - Real-Time Architecture 
 
 ## Executive Summary
 
-**Your Current Approach:** Upload → Whisper → GPT-4o → Dashboard
-**Problem:** This is **NOT suitable for live calls** - it's post-call batch processing
+**Current Approach:** Upload → Whisper → GPT-4o → Dashboard
+**Problem:**  **NOT suitable for live calls** - it's post-call batch processing
 
-**Recommendation:** Implement a **real-time streaming architecture** with specialized components for sales context
+**REFINED PIPELINE:** Implement a **real-time streaming architecture** with specialized components for sales context
 
 ---
 
@@ -34,9 +34,9 @@
 
 ---
 
-## Recommended Architecture Stack (Prioritized)
+## Architecture Stack (Prioritized)
 
-## 🥇 TIER 1: PRIMARY RECOMMENDATION
+## TIER 1: PRIMARY RECOMMENDATION
 ### **WhisperPipe + Llama 3.3 + Deepgram Nova-3**
 
 **Why This Is Best For Live Sales Calls:**
@@ -347,7 +347,7 @@ async def gemini_live_call_analysis():
 
 ---
 
-## 🥉 TIER 3: QUICK WIN (If migrating immediately)
+## 🥉 TIER 3: (If migrating immediately)
 ### **Microsoft VibeVoice-ASR + Smaller LLM**
 
 **If you need something operational fast:**
@@ -369,11 +369,11 @@ Dashboard + Compliance checks
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│  Do you need MAXIMUM real-time performance?                     │
+│  For MAXIMUM real-time performance?                     │
 │  YES → TIER 1: WhisperPipe + Llama 3.3 + Deepgram ✅           │
 │  NO  → Continue to question 2                                   │
 │                                                                 │
-│  Do you want a SINGLE unified API?                              │
+│  For SINGLE unified API?                              │
 │  YES → TIER 2: Gemini 2.0 Flash Live ✅                        │
 │  NO  → Do you need to MINIMIZE costs?                           │
 │        YES → TIER 1 (local stack) ✅                           │
@@ -469,10 +469,6 @@ Current System Costs:
 - ✅ Can run hybrid (local + cloud) for privacy
 
 **Timeline:** 6 weeks to full deployment
-
-**Team Size:** 2 engineers (1 backend, 1 DevOps) + 1 PM
-
-**Next Step:** I can create detailed setup guides for each component. Want me to?
 
 ---
 
