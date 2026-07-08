@@ -255,7 +255,7 @@ SAVINGS: 71% vs competitors ✅
 
 ---
 
-## What Your Team Should Build (Next 6 Weeks)
+## PHASE PLAN(Next 6 Weeks)
 
 ### Week 1-2: Live Transcription
 - Deepgram API setup
