@@ -1,10 +1,8 @@
 # Sales Call Intelligence Platform — Architecture & Build Plan
 
-**Version:** 1.0 · **Date:** July 2026 · **Status:** Approved for build planning
-
 ---
 
-## 1. What we are building (plain language)
+## 1. What we are building
 
 A B2B multi-tenant SaaS tool for sales teams and their managers. The system ingests sales call recordings (and, later, live calls), turns them into text, judges how each call went, and turns that judgment into dashboards for managers and coaching for salespeople.
 
